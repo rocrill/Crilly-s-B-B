@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
 
-#main-image {
-   background: url('../images/cottage.jpeg') no repeat center;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 body {
     font-family: "Kaisei HarunoUmi", sans-serif;
     font-weight: 300;
     color: #222222;
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/cottage.jpeg') no-repeat center center;
+}
+ 
+footer {
+    height: 150px;
 }
