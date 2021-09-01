@@ -21,3 +21,8 @@ body {
 footer {
     height: 150px;
 }
+
+.social-networks > li {
+    display:inline;
+    
+}
