@@ -77,13 +77,26 @@ text-align:center;
 
 /* Attractions */
 
+
 #attractions {
     height:600px;
 }
 
-.attraction-about-text {
-        padding-top: 30px;
-        width: 50%;
-        float: right;
+#right-attractions {
+    padding-top: 30px;
+    width: 80%;
+    float: right;
 
 }
+
+.right-attraction-heading {
+        width: 80%;
+        float:right;
+        line-height: 20px;
+        clear:both;
+        margin-bottom: 30px;
+    }
+
+
+
+
