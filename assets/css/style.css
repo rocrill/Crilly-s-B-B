@@ -37,7 +37,7 @@ body {
 }
 
 #main-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url('../images/cottage.jpeg') no-repeat center center;
 }
