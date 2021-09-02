@@ -47,6 +47,17 @@ body {
     background: url('../images/cottagehome.jpg') no-repeat center center;
 }
  
+#book-stay-button {
+        background-color:#4F000B;
+        color:#fff;
+        font-size:100%;
+        margin-top: 20px;
+        border-radius:2px;
+        padding: 15px 35px;
+        text-align:center;
+        float:right;
+}
+
 footer {
     height: 150px;
 }
