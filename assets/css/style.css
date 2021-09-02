@@ -176,10 +176,29 @@ text-align:center;
             .contact-form {
                 margin: 150px 10% 0 0;
                 color: #fff;
-                background-color: rgba(60, 60, 60, 0.6);
+                background-color: rgba(206, 66, 87, 0.6);
                 max-width: 400px;
                 position: absolute;
                 left: 10%;
                 padding: 30px;
             }
             
+            .send-button {
+                background-color:#4F000B;
+                color:#fff;
+                font-size:100%;
+                margin-top: 20px;
+                border-radius:2px;
+                padding: 15px 35px;
+                text-align:center;
+                float:right;
+
+            }
+
+            .send-button:hover {
+                background-color:#ff9b54;
+                color:#4F000B;
+            }
+
+            
+    
