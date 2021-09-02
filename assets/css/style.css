@@ -135,7 +135,12 @@ text-align:center;
         width: 100%;
         background: url('../images/room1.jpg') no-repeat center center;}
 
-        #price-cover-text {
+        #king-room-image {
+            height: 600px;
+            width: 100%;
+            background: url('../images/king-room.jpg') no-repeat center center;}
+
+        #price-cover-text-double {
     
                 font-size: 130%;
                 font-family: "Kaisei HarunoUmi", sans-serif;
@@ -156,4 +161,24 @@ text-align:center;
                 position: absolute;
             }
         
+            #price-cover-text-king {
+    
+                font-size: 130%;
+                font-family: "Kaisei HarunoUmi", sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            
+                width: 300px;
+                height: 200px;
+            
+                padding-top: 40px;
+                padding-left: 10px;
+            
+                background-color: rgb(206, 66, 87, .6);
+            
+                top: 750px;
+                left: 0;
+            
+                position: absolute;
+            }
 
