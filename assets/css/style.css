@@ -1,15 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
 
+/*
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+*/
 
 body {
     font-family: "Kaisei HarunoUmi", sans-serif;
     font-weight: 300;
     color: #222222;
+}
+
+#logo {
+    padding: 20px 0 0 20px;
+}
+
+#menu, #logo {
+    line-height: 30px;
+}
+
+#menu {
+    position:absolute;
+    top: 30px;
+    width: 100%;
+    padding: 0 20px 0 0;
 }
 
 #main-image {
@@ -25,4 +42,10 @@ footer {
 .social-networks > li {
     display:inline;
     
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
 }
