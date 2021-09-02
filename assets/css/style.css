@@ -41,9 +41,9 @@ body {
 }
 
 #main-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    background: url('../images/cottage.jpeg') no-repeat center center;
+    background: url('../images/cottagehome.jpg') no-repeat center center;
 }
  
 footer {
