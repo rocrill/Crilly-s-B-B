@@ -29,6 +29,10 @@ body {
     padding: 0 20px 0 0;
 }
 
+#menu a {
+    text-decoration:none;
+}
+
 #main-image {
     height: 600px;
     width: 100%;
@@ -48,4 +52,8 @@ footer {
     float: right;
     list-style-type: none;
     margin-right: 40px;
+}
+
+.active {
+    border-bottom: 1px solid #4F000B;
 }
