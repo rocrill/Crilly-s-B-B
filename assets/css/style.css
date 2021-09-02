@@ -52,6 +52,7 @@ footer {
 
 .social-networks {
 text-align:center;
+color:#4F000B;
 }
 
 .social-networks > li {
@@ -67,4 +68,17 @@ text-align:center;
 
 .active {
     border-bottom: 1px solid #4F000B;
+}
+
+/* Attractions */
+
+#attractions {
+    height:600px;
+}
+
+.attraction-about-text {
+        padding-top: 30px;
+        width: 50%;
+        float: right;
+
 }
