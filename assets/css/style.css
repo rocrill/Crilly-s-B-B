@@ -78,37 +78,6 @@ text-align:center;
 /* Attractions */
 
 
-#attractions-container {
-    height:800px;
-}
-
-#attractions-container > div {
-    display: inline-block;
-}
-
-#right-attractions {
-    padding-top: 30px;
-    width: 70%;
-    float: right;
-
-}
-
-.right-attractions-heading {
-        width: 80%;
-        float:right;
-        line-height: 20px;
-        clear:both;
-        margin-bottom: 30px;
-    }
-
-    .left-attractions-heading {
-        width: 80%;
-        float: left;
-        line-height: 20px;
-        clear:both;
-    }
-/* test */
-
     .attractions-container {
         display: flex;
         align-items: center;
@@ -126,6 +95,7 @@ text-align:center;
       .attractions-text {
         font-size: 20px;
         padding-left: 20px;
+        color:#4F000B;
       }
 
       /* Rooms */
