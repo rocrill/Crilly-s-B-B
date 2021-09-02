@@ -52,13 +52,18 @@ footer {
 
 .social-networks {
 text-align:center;
-color:#4F000B;
 }
 
 .social-networks > li {
-    display:inline;
-    
-}
+    display:inline;}
+
+.social-networks i {
+        font-size: 160%;
+        margins: 1%;
+        padding: 5%;
+        color: #4F000B
+    }
+
 
 #menu li {
     float: right;
