@@ -36,6 +36,10 @@ body {
     color:#4F000B;
 }
 
+#menu a:hover {
+    border-bottom: 1px solid #4F000B;
+}
+
 #main-image {
     height: 500px;
     width: 100%;
