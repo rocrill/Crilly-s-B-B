@@ -129,7 +129,7 @@ text-align:center;
 
       /* Rooms */
 
-      #double-room-outer {
+      .room-outer {
         height: 600px;
         width: 100%;
         overflow: hidden;
@@ -146,9 +146,13 @@ text-align:center;
           }
 
         #king-room-image {
-            height: 600px;
-            width: 100%;
-            background: url('../images/king-room.jpg') no-repeat center center;}
+                width: 100%;
+                height:100%;
+                background: url('../images/king-room.jpg') no-repeat center center;
+                background-size: cover;
+                margin:auto;
+                padding:0;
+              }
 
         #price-cover-text-double {
     
@@ -156,6 +160,7 @@ text-align:center;
                 font-family: "Kaisei HarunoUmi", sans-serif;
                 text-transform: uppercase;
                 letter-spacing: 4px;
+                color:white;
             
                 width: 300px;
                 height: 200px;
@@ -163,9 +168,9 @@ text-align:center;
                 padding-top: 40px;
                 padding-left: 10px;
             
-                background-color: rgb(206, 66, 87, .6);
+                background-color: rgb(206, 66, 87, .9);
             
-                top: 150px;
+                top: 20%;
                 left: 0;
             
                 position: absolute;
@@ -177,6 +182,7 @@ text-align:center;
                 font-family: "Kaisei HarunoUmi", sans-serif;
                 text-transform: uppercase;
                 letter-spacing: 4px;
+                color:white;
             
                 width: 300px;
                 height: 200px;
@@ -184,11 +190,9 @@ text-align:center;
                 padding-top: 40px;
                 padding-left: 10px;
             
-                background-color: rgb(206, 66, 87, .6);
-            
-                top: 750px;
+                background-color: rgb(206, 66, 87, .9);
+                top: 20%;
                 left: 0;
-            
                 position: absolute;
             }
 
