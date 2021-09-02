@@ -51,8 +51,10 @@ body {
 #book-stay-button {
     background-color:#4F000B;
     color:#fff;
-    font-size:100%;
-    margin-top: 20px;
+    font-size:125%;
+    font-family: "Kaisei HarunoUmi", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
     border-radius:2px;
     padding: 15px 35px;
     text-align:center;
@@ -66,8 +68,8 @@ body {
 }
 
 #book-stay-button:hover {
-    background-color:#ff9b54;
-    color:#4F000B
+    background-color:#ce4257;
+    color:#fafafa;
 }
 
 footer {
@@ -211,7 +213,7 @@ text-align:center;
             .send-button {
                 background-color:#4F000B;
                 color:#fff;
-                font-size:100%;
+                font-size:110%;
                 margin-top: 20px;
                 border-radius:2px;
                 padding: 15px 35px;
@@ -222,7 +224,7 @@ text-align:center;
 
             .send-button:hover {
                 background-color:#ff9b54;
-                color:#4F000B;
+                color:#4F000B
             }
 
             .text-input {
