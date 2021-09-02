@@ -27,10 +27,12 @@ body {
     top: 30px;
     width: 100%;
     padding: 0 20px 0 0;
+   
 }
 
 #menu a {
     text-decoration:none;
+    color:#4F000B;
 }
 
 #main-image {
@@ -41,6 +43,10 @@ body {
  
 footer {
     height: 150px;
+}
+
+.social-networks {
+text-align:center;
 }
 
 .social-networks > li {
