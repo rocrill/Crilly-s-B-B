@@ -34,6 +34,7 @@ body {
 #menu a {
     text-decoration:none;
     color:#4F000B;
+    font-size: 125%;
 }
 
 #menu a:hover {
