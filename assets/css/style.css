@@ -171,16 +171,17 @@ text-align:center;
                 background-size: cover;
                 background-position: center;
                 height: 900px;
+                
             }
             
             .contact-form {
-                margin: 150px 10% 0 0;
+                margin: 140px 10% 0 0;
                 color: #fff;
                 background-color: rgba(206, 66, 87, 0.6);
                 max-width: 400px;
                 position: absolute;
-                left: 10%;
-                padding: 30px;
+                left: 5%;
+                padding: 35px;
             }
             
             .send-button {
@@ -200,5 +201,13 @@ text-align:center;
                 color:#4F000B;
             }
 
-            
+            .text-input {
+                background: transparent;
+                color: #fafafa;
+                width: 100%;
+                height: 25px;
+                margin: 5px 0 20px 0;
+                border: 1px solid white;
+                border-radius:2px;
+            }
     
