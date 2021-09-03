@@ -297,6 +297,12 @@ text-align:center;
                     height: 500px;
                     margin: 0;
                     padding: 90px;
-                    text-align:center;
+                    text-align:left;
                     
+                  }
+
+                  #contact-heading {
+                      text-weight:300px;
+                      text-align:center;
+                      text-decoration: underline;
                   }
