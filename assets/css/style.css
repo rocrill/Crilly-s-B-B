@@ -71,7 +71,7 @@ body {
     float:right;
     margin: 0;
     position: absolute;
-    top: 55%;
+    top: 45%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -266,3 +266,36 @@ text-align:center;
                 border: 1px solid white;
                 border-radius:2px;
             }
+
+            .gmap_canvas {
+                overflow:hidden;
+                background:none!important;
+                height:500px;
+                width:600px;}
+
+            .mapouter {
+                position:relative;
+                text-align:right;
+                height:500px;
+                width:600px;}
+
+                .container-directions {
+                    display: flex;
+                  }
+                  
+                  .container-directions-left {
+                    background: #ce8888;
+                    flex-basis: 950px;
+                    height: 600px;
+                    margin: 0;
+                    padding: 10px
+                  }
+
+                  .container-directions-right {
+                    background: #222222;
+                    flex-basis: 950px;
+                    height: 600px;
+                    margin: 0;
+                    padding: 10px;
+                    
+                  }
