@@ -284,18 +284,19 @@ text-align:center;
                   }
                   
                   .container-directions-left {
-                    background: #ce8888;
-                    flex-basis: 950px;
-                    height: 600px;
+                    background: #fafafa;
+                    flex-basis: 600px;
+                    height: 500px;
                     margin: 0;
-                    padding: 10px
+                    padding: 90px
                   }
 
                   .container-directions-right {
-                    background: #222222;
+                    background: #fafafa;
                     flex-basis: 950px;
-                    height: 600px;
+                    height: 500px;
                     margin: 0;
-                    padding: 10px;
+                    padding: 90px;
+                    text-align:center;
                     
                   }
