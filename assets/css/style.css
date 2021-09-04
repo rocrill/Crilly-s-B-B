@@ -418,24 +418,47 @@ text-align:center;
                 @media screen and (max-width: 800px) {
 
                     #menu {
-                        font-size: 10px;
+                        font-size: 11px;
                         padding:0;
-                        margin:0
+                        margin:0;
+                        font-weight: bold;
                         
                     }
 
                     #logo a {
                         text-decoration:none;
                         color:#4F000B;
-                        font-size: 80%;
+                        font-size: 90%;
                     }
 
                     #menu li {
-                        float: right;
+                    
                         list-style-type: none;
-                        margin-right: 30px;
+                        margin-right: 20px;
                     }
+
+                    .gmap_canvas {
+                        overflow:hidden;
+                        background:none!important;
+                        height:400px;
+                        width:500px;}
+        
+                    .mapouter {
+                        position:relative;
+                        text-align:left;
+                        height:400px;
+                        width:500px;}
                 }
+
+                .container-directions-left {
+                    margin-left: 0;
+                    margin-right: 0;
+                    width: 50%;
+                    flex-basis: 400px;
+                    padding: 0;
+                }
+
+
 
 
                       
