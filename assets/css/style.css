@@ -124,11 +124,13 @@ text-align:center;
         flex-basis: 40%;
         min-width: 40%;
         max-width: 40%;
+    
       }
 
       .attractions-image-img {
         min-width: 100%;
         max-width: 100%;
+        min-height:100%;
     }
     
       .attractions-text {
@@ -318,7 +320,7 @@ text-align:center;
                             display: flex;
                             flex-direction: column;
                           }
-                       }
+                       
 
                     .container-directions-left {
                         margin-left: auto;
@@ -334,6 +336,43 @@ text-align:center;
                         
         
                     }
+                }
+
+                @media screen and (max-width:950px) {
+
+                    #menu a {color:aqua;
+                        
+                    }
+
+                    .container-directions-left {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 60%;
+                        flex-basis: 500px;
+                    }
+
+                    .attractions-image {
+                        flex-basis: 40%;
+                        min-width: 40%;
+                        max-width: 40%;
+                      }
+
+                    .attractions-image-img {
+                        min-width: 100%;
+                        max-width: 100%;
+                        min-height:100%;
+                        
+                    }
+                    
+                      .attractions-text {
+                        font-size: 15px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        text-align: justify;
+                        color:black;
+                        max-width: 100%;
+                      }
+
                 }
 
                       
