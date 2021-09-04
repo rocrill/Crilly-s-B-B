@@ -125,13 +125,12 @@ text-align:center;
         min-width: 40%;
         max-width: 40%;
       }
-      
 
-      img {
+      .attractions-image-img {
         min-width: 100%;
         max-width: 100%;
     }
-
+    
       .attractions-text {
         font-size: 15px;
         padding-left: 20px;
@@ -140,6 +139,8 @@ text-align:center;
         color:black;
         max-width: 100%;
       }
+
+    
 
       /* Rooms */
 
