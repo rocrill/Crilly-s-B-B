@@ -95,7 +95,7 @@ text-align:center;
 
 .social-networks i {
         font-size: 160%;
-        margins: 1%;
+        margin: 1%;
         padding: 5%;
         color: #4F000B
     }
@@ -302,12 +302,12 @@ text-align:center;
                     height: 500px;
                     margin: 0;
                     padding: 90px;
-                    text-align:left;
+                    padding-left: 40px;
+                    text-align:justify;
                     
                   }
 
                   #contact-heading {
-                      text-weight:300px;
                       text-align:center;
                       text-decoration: underline;
                   }
