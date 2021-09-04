@@ -17,8 +17,6 @@ body {
 #logo {
     padding: 10px 0 10px 15px;
     color:#4F000B;
-   /* float: left;
-    margin-left: 30px;*/
     }
 
 #menu, #logo {
@@ -340,9 +338,6 @@ text-align:center;
 
                 @media screen and (max-width:950px) {
 
-                    #menu a {color:aqua;
-                        
-                    }
 
                     .container-directions-left {
                         margin-left: auto;
@@ -374,6 +369,54 @@ text-align:center;
                       }
 
                 }
+
+                @media screen and (max-width: 800px) {
+
+                    
+
+                    #menu {
+                        clear:left;
+                        float: left;
+                        margin-left: 30px;
+                        margin-bottom: 20px;
+                        line-height: 25px;
+                    }
+
+
+#logo {
+    padding: 5px 0 5px 10px;
+    color:#4F000B;
+    
+    }
+
+#menu {
+    line-height: 120px;
+   
+}
+
+#logo {
+    line-height: 40px;
+   
+}
+#main-image {
+    height: 650px;
+    width: 100%;
+    background: url('../images/medcottagehome.jpg') no-repeat center center;
+    
+}
+.header {
+    height:100px;
+}
+
+#logo a {
+    text-decoration:none;
+    color:#4F000B;
+    font-size: 100%;
+}
+
+                }
+
+
 
                       
             
