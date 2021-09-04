@@ -458,6 +458,14 @@ text-align:center;
                     padding: 0;
                 }
 
+                .attractions-image-img {
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height:100%;
+                    object-fit: cover;
+                }
+            }
+
 
 
 
