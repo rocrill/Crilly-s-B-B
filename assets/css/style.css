@@ -79,7 +79,7 @@ body {
 
 #book-stay-button:hover {
     background-color:#4F000B;
-    color:#fafafa;
+    color:white;
 }
 
 footer {
@@ -252,7 +252,7 @@ text-align:center;
 
             .text-input {
                 background: transparent;
-                color: #fafafa;
+                color: white;
                 min-width: 100%;
                 max-width: 100%;
                 height: 25px;
@@ -263,7 +263,7 @@ text-align:center;
             
             .text-input-message {
                 background: transparent;
-                color: #fafafa;
+                color: white;
                 min-width: 100%;
                 max-width: 100%;
                 height: 100px;
@@ -289,7 +289,7 @@ text-align:center;
                   }
                   
                   .container-directions-left {
-                    background: #fafafa;
+                    background: white;
                     flex-basis: 600px;
                     height: 500px;
                     margin: 0;
@@ -297,7 +297,7 @@ text-align:center;
                   }
 
                   .container-directions-right {
-                    background: #fafafa;
+                    background: white;
                     flex-basis: 950px;
                     height: 500px;
                     margin: 0;
@@ -311,3 +311,31 @@ text-align:center;
                       text-align:center;
                       text-decoration: underline;
                   }
+
+                  @media screen and (max-width: 1200px) {
+
+                    .container-directions {
+                            display: flex;
+                            flex-direction: column;
+                          }
+                       }
+
+                    .container-directions-left {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 50%;
+                        flex-basis: 500px;
+                    }
+                    .container-directions-right {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 90%;
+                        flex-basis: 400px;
+                        
+        
+                    }
+                }
+
+                      
+            
+                
