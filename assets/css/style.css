@@ -297,13 +297,17 @@ text-align:center;
 
                   .container-directions-right {
                     background: white;
-                    flex-basis: 950px;
-                    height: 500px;
-                    margin: 0;
-                    padding: 90px;
-                    padding-left: 40px;
+                    /*flex-basis: 950px;*/
+                    width:100%;
+                    padding: 0;
                     text-align:justify;
                     
+                  }
+
+                  .container-directions-right-inner {
+                      padding:90px;
+                      width:auto;
+
                   }
 
                   #contact-heading {
@@ -448,7 +452,7 @@ text-align:center;
                         text-align:left;
                         height:400px;
                         width:500px;}
-                }
+                
 
                 .container-directions-left {
                     margin-left: 0;
