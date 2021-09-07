@@ -79,12 +79,17 @@ body {
     color:white;
 }
 
+#home-gallery {
+    display: inline-block;
+    width: 100%;
+}
+
 footer {
     height: 150px;
 }
 
 .social-networks {
-text-align:center;
+text-align: center;
 }
 
 .social-networks > li {
