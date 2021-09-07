@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-
 
 body {
     font-family: "Kaisei HarunoUmi", sans-serif;
@@ -16,31 +14,29 @@ body {
 
 #logo {
     padding: 10px 0 10px 15px;
-    color:#4F000B;
-    }
+    color: #4F000B;
+}
 
 #menu, #logo {
     line-height: 50px;
-   
 }
 
 #logo a {
-    text-decoration:none;
-    color:#4F000B;
+    text-decoration: none;
+    color: #4F000B;
     font-size: 125%;
 }
 
 #menu {
-    position:absolute;
+    position: absolute;
     top: 10px;
     right:0;
     padding: 0 30px 0 0;
-   
 }
 
 #menu a {
-    text-decoration:none;
-    color:#4F000B;
+    text-decoration: none;
+    color: #4F000B;
     font-size: 125%;
 }
 
@@ -52,20 +48,19 @@ body {
     height: 750px;
     width: 100%;
     background: url('../images/medcottagehome.jpg') no-repeat center center;
-    
 }
  
 #book-stay-button {
-    background-color:#ce4257;
-    color:#fff;
-    font-size:125%;
+    background-color: #ce4257;
+    color: #fff;
+    font-size: 125%;
     font-family: "Kaisei HarunoUmi", sans-serif;
     font-weight: bold;
     margin-top: 10px;
-    border-radius:2px;
+    border-radius: 2px;
     padding: 15px 35px;
-    text-align:center;
-    float:right;
+    text-align: center;
+    float: right;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -75,14 +70,14 @@ body {
 }
 
 #book-stay-button:hover {
-    background-color:#4F000B;
-    color:white;
+    background-color: #4F000B;
+    color: white;
 }
 
 #about-us {
     text-align: center;
-    padding:50px;
-    color:#4F000B;
+    padding: 50px;
+    color: #4F000B;
 }
 
 footer {
@@ -90,19 +85,19 @@ footer {
 }
 
 .social-networks {
-text-align: center;
+    text-align: center;
 }
 
 .social-networks > li {
-    display:inline;}
+    display: inline;
+}
 
 .social-networks i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #4F000B
-    }
-
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #4F000B;
+}
 
 #menu li {
     float: right;
@@ -116,369 +111,326 @@ text-align: center;
 
 /* Attractions */
 
-    .attractions-container {
-        display: flex;
-        align-items: left;
-        justify-content: left;
-      }
+.attractions-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
 
 
-      .attractions-image {
-        flex-basis: 40%;
-        min-width: 40%;
-        max-width: 40%;
+.attractions-image {
+    flex-basis: 40%;
+    min-width: 40%;
+    max-width: 40%;
+}
+
+.attractions-image-img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+}
     
-      }
+.attractions-text {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    color: black;
+    max-width: 100%;
+}
 
-      .attractions-image-img {
+/* Rooms */
+
+.room-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#room1-image {
+    width: 100%;
+    height: 100%;
+    background: url('../images/meddoubleroom.jpg') no-repeat center center;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
+#king-room-image {
+    width: 100%;
+    height: 100%;
+    background: url('../images/medsizekingroom.jpg') no-repeat center center;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
+#price-cover-text-double {
+    font-size: 130%;
+    font-family: "Kaisei HarunoUmi", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgb(206, 66, 87, .9);
+    top: 20%;
+    left: 0;
+    position: absolute;
+}
+        
+#price-cover-text-king {
+    font-size: 130%;
+    font-family: "Kaisei HarunoUmi", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgb(206, 66, 87, .9);
+    top: 20%;
+    left: 0;
+    position: absolute;
+}
+
+/* contact form */
+
+.contact-section {
+    clear: left;
+    background: url('../images/medfireplace.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;    
+}
+            
+.contact-form {
+    margin: 140px 10% 0 0;
+    color: #fff;
+    background-color: rgba(206, 66, 87, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 5%;
+    padding: 35px;
+}
+
+.send-button {
+    background-color: #4F000B;
+    color: #fff;
+    font-size: 110%;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 35px;
+    text-align: center;
+    float: right;
+}
+
+.send-button:hover {
+    background-color: #ff9b54;
+    color: #4F000B
+}
+
+.text-input {
+    background: transparent;
+    color: white;
+    min-width: 100%;
+    max-width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.text-input-message {
+    background: transparent;
+    color: white;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100px;
+    margin: 5px 0 20px 0;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 500px;
+    width: 600px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.container-directions {
+    display: flex;
+}
+    
+.container-directions-left {
+    background: white;
+    flex-basis: 600px;
+    height: 500px;
+    margin: 0;
+    padding: 90px
+}
+
+.container-directions-right {
+    background: white;
+    /*flex-basis: 950px;*/
+    width: 100%;
+    padding: 0;
+    text-align: justify;
+}
+
+.container-directions-right-inner {
+    padding: 90px;
+    width: auto;
+}
+
+#contact-heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-directions {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-directions-left {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        flex-basis: 500px;
+    }
+    .container-directions-right {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        flex-basis: 400px;
+    }
+}
+
+/*   @media screen and (max-width:950px) {
+
+
+.container-directions-left {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    flex-basis: 500px;
+}
+
+.attractions-image {
+    flex-basis: 40%;
+    min-width: 40%;
+    max-width: 40%;
+    }
+
+.attractions-image-img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height:100%;
+    
+}
+
+    .attractions-text {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    color:black;
+    max-width: 100%;
+    }
+}
+    */
+
+@media screen and (max-width: 800px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #logo {
+        padding: 5px 0 5px 10px;
+        color: #4F000B;
+    }
+    #menu {
+        line-height: 120px;
+    }
+    #logo {
+        line-height: 40px;   
+    }
+    #main-image {
+        height: 650px;
+        width: 100%;
+        background: url('../images/medcottagehome.jpg') no-repeat center center;
+    }
+    .header {
+        height: 100px;
+    }
+    #logo a {
+        text-decoration: none;
+        color: #4F000B;
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #menu {
+        font-size: 11px;
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+    }
+    #logo a {
+        text-decoration: none;
+        color: #4F000B;
+        font-size: 90%;
+    }
+    #menu li {
+        list-style-type: none;
+        margin-right: 20px;
+    }
+    .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 400px;
+        width: 500px;
+    }
+    .mapouter {
+        position: relative;
+        text-align: left;
+        height: 400px;
+        width: 500px;
+    }
+    .container-directions-left {
+        margin-left: 0;
+        margin-right: 0;
+        width: 50%;
+        flex-basis: 400px;
+        padding: 0;
+    }
+    .attractions-image-img {
         min-width: 100%;
         max-width: 100%;
-        min-height:100%;
+        min-height: 100%;
+        object-fit: cover;
     }
-    
-      .attractions-text {
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: justify;
-        color:black;
-        max-width: 100%;
-      }
+}
 
-    
 
-      /* Rooms */
 
-      .room-outer {
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
 
-        #room1-image {
-            width: 100%;
-            height:100%;
-            background: url('../images/meddoubleroom.jpg') no-repeat center center;
-            background-size: cover;
-            margin:auto;
-            padding:0;
-          }
-
-        #king-room-image {
-                width: 100%;
-                height:100%;
-                background: url('../images/medsizekingroom.jpg') no-repeat center center;
-                background-size: cover;
-                margin:auto;
-                padding:0;
-              }
-
-        #price-cover-text-double {
-    
-                font-size: 130%;
-                font-family: "Kaisei HarunoUmi", sans-serif;
-                text-transform: uppercase;
-                letter-spacing: 4px;
-                color:white;
-            
-                width: 300px;
-                height: 200px;
-            
-                padding-top: 40px;
-                padding-left: 10px;
-            
-                background-color: rgb(206, 66, 87, .9);
-            
-                top: 20%;
-                left: 0;
-            
-                position: absolute;
-            }
         
-            #price-cover-text-king {
-    
-                font-size: 130%;
-                font-family: "Kaisei HarunoUmi", sans-serif;
-                text-transform: uppercase;
-                letter-spacing: 4px;
-                color:white;
-            
-                width: 300px;
-                height: 200px;
-            
-                padding-top: 40px;
-                padding-left: 10px;
-            
-                background-color: rgb(206, 66, 87, .9);
-                top: 20%;
-                left: 0;
-                position: absolute;
-            }
 
-            /* contact form */
-
-
-            .contact-section {
-                clear: left;
-                background: url('../images/medfireplace.jpg');
-                background-size: cover;
-                background-position: center;
-                height: 900px;
-                
-            }
-            
-            .contact-form {
-                margin: 140px 10% 0 0;
-                color: #fff;
-                background-color: rgba(206, 66, 87, 0.6);
-                max-width: 400px;
-                position: absolute;
-                left: 5%;
-                padding: 35px;
-            }
-            
-            .send-button {
-                background-color:#4F000B;
-                color:#fff;
-                font-size:110%;
-                margin-top: 20px;
-                border-radius:2px;
-                padding: 15px 35px;
-                text-align:center;
-                float:right;
-
-            }
-
-            .send-button:hover {
-                background-color:#ff9b54;
-                color:#4F000B
-            }
-
-            .text-input {
-                background: transparent;
-                color: white;
-                min-width: 100%;
-                max-width: 100%;
-                height: 25px;
-                margin: 5px 0 20px 0;
-                border: 1px solid white;
-                border-radius:2px;
-            }
-            
-            .text-input-message {
-                background: transparent;
-                color: white;
-                min-width: 100%;
-                max-width: 100%;
-                height: 100px;
-                margin: 5px 0 20px 0;
-                border: 1px solid white;
-                border-radius:2px;
-            }
-
-            .gmap_canvas {
-                overflow:hidden;
-                background:none!important;
-                height:500px;
-                width:600px;}
-
-            .mapouter {
-                position:relative;
-                text-align:right;
-                height:500px;
-                width:600px;}
-
-                .container-directions {
-                    display: flex;
-                  }
-                  
-                  .container-directions-left {
-                    background: white;
-                    flex-basis: 600px;
-                    height: 500px;
-                    margin: 0;
-                    padding: 90px
-                  }
-
-                  .container-directions-right {
-                    background: white;
-                    /*flex-basis: 950px;*/
-                    width:100%;
-                    padding: 0;
-                    text-align:justify;
-                    
-                  }
-
-                  .container-directions-right-inner {
-                      padding:90px;
-                      width:auto;
-
-                  }
-
-                  #contact-heading {
-                      text-align:center;
-                      text-decoration: underline;
-                  }
-
-                  @media screen and (max-width: 1200px) {
-
-                    .container-directions {
-                            display: flex;
-                            flex-direction: column;
-                          }
-                       
-
-                    .container-directions-left {
-                        margin-left: auto;
-                        margin-right: auto;
-                        width: 50%;
-                        flex-basis: 500px;
-                    }
-                    .container-directions-right {
-                        margin-left: auto;
-                        margin-right: auto;
-                        width: 90%;
-                        flex-basis: 400px;
-                        
-        
-                    }
-                }
-
-                @media screen and (max-width:950px) {
-
-
-                    .container-directions-left {
-                        margin-left: auto;
-                        margin-right: auto;
-                        width: 60%;
-                        flex-basis: 500px;
-                    }
-
-                    .attractions-image {
-                        flex-basis: 40%;
-                        min-width: 40%;
-                        max-width: 40%;
-                      }
-
-                    .attractions-image-img {
-                        min-width: 100%;
-                        max-width: 100%;
-                        min-height:100%;
-                        
-                    }
-                    
-                      .attractions-text {
-                        font-size: 15px;
-                        padding-left: 20px;
-                        padding-right: 20px;
-                        text-align: justify;
-                        color:black;
-                        max-width: 100%;
-                      }
-
-                }
-
-                @media screen and (max-width: 800px) {
-
-                    
-
-                    #menu {
-                        clear:left;
-                        float: left;
-                        margin-left: 30px;
-                        margin-bottom: 20px;
-                        line-height: 25px;
-                    }
-
-
-#logo {
-    padding: 5px 0 5px 10px;
-    color:#4F000B;
-    
-    }
-
-#menu {
-    line-height: 120px;
-   
-}
-
-#logo {
-    line-height: 40px;
-   
-}
-#main-image {
-    height: 650px;
-    width: 100%;
-    background: url('../images/medcottagehome.jpg') no-repeat center center;
-    
-}
-.header {
-    height:100px;
-}
-
-#logo a {
-    text-decoration:none;
-    color:#4F000B;
-    font-size: 100%;
-}
-
-                }
-
-                @media screen and (max-width: 800px) {
-
-                    #menu {
-                        font-size: 11px;
-                        padding:0;
-                        margin:0;
-                        font-weight: bold;
-                        
-                    }
-
-                    #logo a {
-                        text-decoration:none;
-                        color:#4F000B;
-                        font-size: 90%;
-                    }
-
-                    #menu li {
-                    
-                        list-style-type: none;
-                        margin-right: 20px;
-                    }
-
-                    .gmap_canvas {
-                        overflow:hidden;
-                        background:none!important;
-                        height:400px;
-                        width:500px;}
-        
-                    .mapouter {
-                        position:relative;
-                        text-align:left;
-                        height:400px;
-                        width:500px;}
-                
-
-                .container-directions-left {
-                    margin-left: 0;
-                    margin-right: 0;
-                    width: 50%;
-                    flex-basis: 400px;
-                    padding: 0;
-                }
-
-                .attractions-image-img {
-                    min-width: 100%;
-                    max-width: 100%;
-                    min-height:100%;
-                    object-fit: cover;
-                }
-            }
-
-
-
-
-                      
-            
-                
