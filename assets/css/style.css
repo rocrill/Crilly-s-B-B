@@ -79,9 +79,10 @@ body {
     color:white;
 }
 
-#home-gallery {
-    display: inline-block;
-    width: 100%;
+#about-us {
+    text-align: center;
+    padding:50px;
+    color:#4F000B;
 }
 
 footer {
