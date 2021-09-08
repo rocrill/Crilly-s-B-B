@@ -214,10 +214,9 @@ footer {
     color: #4F000B;
 }
 
-/* contact form */
+/* Contact Page */
 
 .contact-section {
-    clear: left;
     background: url('../images/medfireplace.jpg');
     background-size: cover;
     background-position: center;
@@ -246,8 +245,8 @@ footer {
 }
 
 .send-button:hover {
-    background-color: #ff9b54;
-    color: #4F000B
+    background-color: white;
+    color: #4F000B;
 }
 
 .text-input {
