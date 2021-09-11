@@ -112,7 +112,7 @@ footer {
 
 .attractions-container {
     display: flex;
-    align-items: left;
+    align-items: stretch;
     justify-content: left;
 }
 
@@ -299,7 +299,6 @@ footer {
 
 .container-directions-right {
     background: white;
-    /*flex-basis: 950px;*/
     width: 100%;
     padding: 0;
     text-align: justify;
@@ -314,6 +313,8 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
+
+/* Media Queries*/
 
 @media screen and (max-width: 1200px) {
     .container-directions {
@@ -334,40 +335,6 @@ footer {
     }
 }
 
-/*   @media screen and (max-width:950px) {
-
-
-.container-directions-left {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    flex-basis: 500px;
-}
-
-.attractions-image {
-    flex-basis: 40%;
-    min-width: 40%;
-    max-width: 40%;
-    }
-
-.attractions-image-img {
-    min-width: 100%;
-    max-width: 100%;
-    min-height:100%;
-    
-}
-
-    .attractions-text {
-    font-size: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: justify;
-    color:black;
-    max-width: 100%;
-    }
-}
-    */
-
 @media screen and (max-width: 800px) {
     #menu {
         clear: left;
@@ -382,7 +349,17 @@ footer {
     }
     #menu {
         line-height: 120px;
+        font-size: 11px;
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
     }
+
+    #menu li {
+        list-style-type: none;
+        margin-right: 20px;
+    }
+
     #logo {
         line-height: 40px;   
     }
@@ -398,36 +375,9 @@ footer {
         text-decoration: none;
         color: #4F000B;
         font-size: 100%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    #menu {
-        font-size: 11px;
-        padding: 0;
-        margin: 0;
-        font-weight: bold;
-    }
-    #logo a {
         text-decoration: none;
         color: #4F000B;
         font-size: 90%;
-    }
-    #menu li {
-        list-style-type: none;
-        margin-right: 20px;
-    }
-    .gmap_canvas {
-        overflow: hidden;
-        background: none!important;
-        height: 400px;
-        width: 500px;
-    }
-    .mapouter {
-        position: relative;
-        text-align: left;
-        height: 400px;
-        width: 500px;
     }
     .container-directions-left {
         margin-left: 0;
@@ -442,7 +392,20 @@ footer {
         min-height: 100%;
         object-fit: cover;
     }
+    .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 400px;
+        width: 500px;
+    }
+    .mapouter {
+        position: relative;
+        text-align: left;
+        height: 400px;
+        width: 500px;
+    }
 }
+ 
 
 
 
