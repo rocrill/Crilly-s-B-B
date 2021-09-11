@@ -260,7 +260,7 @@ footer {
     border-radius: 2px;
 }
 
-.text-input-message {
+#message {
     background: transparent;
     color: white;
     min-width: 100%;
