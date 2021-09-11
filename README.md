@@ -54,7 +54,7 @@ Users of this website will be able to gain a good insight into what it is like t
   * As a site owner, I want to have a clear and well-structured contact from so I can receive queries and questions from users which will potentially lead to bookings.
   *  As a site owner, I want to have clear social media links displayed on the site which may lead to an increased following on channels to help with my branding.
 
-### Structure
+### Structure:
 
 The site has 4 pages: 
 
@@ -68,7 +68,7 @@ Contact page - The 'Contact' page contains a contact form for customers to submi
 
 For consistency of user experience, the site logo, navigation links and footer remain consitent throughout the site.
 
-### Wireframes
+### Wireframes:
 
 Mock-ups were made using Balsamiq to help plan and visualise the site design. They were created for 3 main screen sizes: mobile, tablet and desktop.
 
@@ -77,10 +77,21 @@ Mock-ups were made using Balsamiq to help plan and visualise the site design. Th
 > - [Wireframes](docs/see-and-do-wireframes.pdf): 'See and do' page.
 > - [Wireframes](docs/contact-wireframes.pdf): 'Contact' page.
 
-### Design
+### Design:
 
-Colour Scheme:
-Burgunsy, pink, white, black - image
+* Colour Scheme:
+
+The colour palette includes calm and complimenting colours which suit the countryside cottage feel that the site is aiming for. The palette was chosen using the Coolors colour generater website.
+
+![Image of Color Palette](assets/images/color-palette-small.png)
+
+The colours mainly used were:
+
+Rosewood #4F000B
+Claret #720026
+Brickred #CE4257
+
+White was also used in different parts of the site to achieve the best possible contrast for user experience.
 
 Typography:
 The Kaisei HarunoUmi font, taken from Google Fonts, is the main font used throughout the website with Sans Serif as the fallback font. It is clear, neat and appropriate for the homely feel that the site is aiming for. 
