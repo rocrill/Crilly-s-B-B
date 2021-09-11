@@ -72,13 +72,10 @@ For consistency of user experience, the site logo, navigation links and footer r
 
 Mock-ups were made using Balsamiq to help plan and visualise the site design. They were created for 3 main screen sizes: mobile, tablet and desktop.
 
+> - [Wireframes](docs/home-wireframes.pdf): 'Home' page.
 > - [Wireframes](docs/rooms-wireframes.pdf): 'Rooms' page.
 > - [Wireframes](docs/see-and-do-wireframes.pdf): 'See and do' page.
-
-'Home' page.
-
-'See and do' page.
-'Contact' page.
+> - [Wireframes](docs/contact-wireframes.pdf): 'Contact' page.
 
 ### Design
 
