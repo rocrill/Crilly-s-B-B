@@ -81,24 +81,32 @@ Mock-ups were made using Balsamiq to help plan and visualise the site design. Th
 
 * Colour Scheme:
 
-The colour palette includes calm and complimenting colours which suit the countryside cottage feel that the site is aiming for. The palette was chosen using the Coolors colour generater website.
+The colour palette includes calm and complimenting colours which suit the countryside cottage feel that the site is aiming for. The palette was chosen using the [Coolors](https://coolors.co/) colour generator website.
 
 ![Image of Color Palette](assets/images/color-palette-small.png)
 
 The colours mainly used were:
 
-Rosewood #4F000B
-Claret #720026
-Brickred #CE4257
+Rosewood: #4F000B
+
+Claret: #720026
+
+Brickred: #CE4257
 
 White was also used in different parts of the site to achieve the best possible contrast for user experience.
 
-Typography:
-The Kaisei HarunoUmi font, taken from Google Fonts, is the main font used throughout the website with Sans Serif as the fallback font. It is clear, neat and appropriate for the homely feel that the site is aiming for. 
+*Typography:
+'Kaisei HarunoUmi', taken from Google Fonts, is the main font used throughout the website with 'Sans Serif' as the fallback font. It is clear, neat and appropriate for the homely feel that the site is aiming for. 
 
-Imagery:
+*Imagery:
+
+All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+
 The main image on the home page is a beautiful remote old fashioned country cottage, surrounded by nature. This aims to evoke feelings of calm. 
 
+The images on the 'See and do' offer a preview of the recommended local activites, and also provide a balance between imagery and text.
+
+The image on the 'Contact' page aims to evoke feelings of cosiness and calm and compliments the site's colour scheme.
 
 ------
 
@@ -106,7 +114,7 @@ The main image on the home page is a beautiful remote old fashioned country cott
 
 Existing
 
-To be Implemented in Future
+To be Implemented in Future:
 
 -
 
