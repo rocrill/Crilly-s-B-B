@@ -58,17 +58,24 @@ Users of this website will be able to gain a good insight into what it is like t
 
 The site has 4 pages: 
 
-Home - Hero image of the exterior of the B&B. A brief 'about us' section outlining the history of the business, followed by a gallery of images of the B&B and local venues in the village of Maghera.
+Home page - The 'Home' page contains a Hero image of the exterior of the B&B (Often the first thing a potential customer wants to see), an eye-catching call to action booking button in the centre of the page which redirects to the Contact page, and an 'About us' section with a welcome message and brief background of the business.
 
-Rooms -  The Rooms available and their prices, with additional links to the contact form/booking page.
+Rooms -  The 'Rooms' page contains images of the two room types available and their prices, with additional 'book now' buttons which redirect to the Contact form/booking page.
 
-See and Do - Suggestions for activities in the area while staying at the B & B, links to more information on each activity. 
+See and do - The 'See and do' page contains suggestions for activities in the area which may be of interest to the B&B's guests, along with links to more information on each activity. 
 
-Contact page - Contains a contact form for customers to submit booking requests and questions to the company. This page also contains a map to the B&B and directions.
+Contact page - The 'Contact' page contains a contact form for customers to submit booking requests and questions to the company. This page also contains a map to the B&B and directions/transport options.
+
+For consistency of user experience, the site logo, navigation links and footer remain consitent throughout the site.
 
 ### Wireframes
 
-tbc
+Mock-ups were made using Balsamiq to help plan and visualise the site design. They were created for 3 main screen sizes: mobile, tablet and desktop.
+
+'Home' link
+'Rooms' link
+'See and do' link
+'Contact' link
 
 ### Design
 
