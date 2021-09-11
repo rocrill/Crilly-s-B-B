@@ -1,4 +1,4 @@
-y# Crilly's B&B
+# Crilly's B&B
 
 ## Introduction
 
@@ -14,16 +14,20 @@ Users of this website will be able to gain a good insight into what it is like t
 
 ### User Goals
 
-* to learn more about the B&B
-* to easily make a booking
-* to find clear information about the B&B location and directions, the rooms and facilities on offer.
+* To learn more about the B&B, including the style and affordability.
+* To easily make a booking.
+* To find clear information about the B&B location and directions, the rooms, prices and facilities on offer.
 
 ### Site Owner's Goals
 
-* To project a positive brand image
-* To get new customers
+* To project a positive brand image.
+* To get new customers.
 
 ### Target Audience
+
+* Families looking for an affordable, low-key holiday.
+* Couples looking for a remote romantic getaway.
+* Solo travelers who would appreciate cosy and remote accommodation in the countryside.
 
 ### User Stories
 
@@ -31,16 +35,24 @@ Users of this website will be able to gain a good insight into what it is like t
 
   * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the service on offer at the B&B.
   * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-  * As a First Time Visitor, I also want to locate the business's social media links to see their followings on social media to determine how trusted and known they are, and potentially look for testimonials on these sites to understand how previous customers found the accommodation.
-  
+  * As a First Time Visitor, I want to easily find basic information about the B&B like it's location and how to reach it.
+ 
 * Returning Visitor Goals
 
-  * As a Returning Visitor, I want to easily access the section of the site where I can contact with the organisation with queries.
+  * As a Returning Visitor, I want to easily access the section of the site where I can contact the organisation with queries.
+  * As a Returning Visitor, I want to easily access the section of the site where I can review prices as I may now be considering booking and putting a budget together for this.
+  * As a Returning Visitor, I also want to locate the business's social media links to see their followings on social media to determine how trusted and known they are, and potentially look for testimonials on these sites to understand how previous customers found the accommodation.
   
 * Frequent User Goals
 
   * As a Frequent User, I want to be able to access the site easily from any device, even if I am on the go.
   * As a Frequent User, I want to follow the B&B on their social pages so I am aware of any updates/offers.
+
+* Site Owner Goals
+
+  * As a site owner, I want to create an attractive and well-designed site that elicits a positive emotional resonse in users so that they remain on and navigate througout the site to achieve their goals.
+  * As a site owner, I want to have a clear and well-structured contact from so I can receive queries and questions from users which will potentially lead to bookings.
+  *  As a site owner, I want to have clear social media links displayed on the site which may lead to an increased following on channels to help with my branding.
 
 ### Structure
 
