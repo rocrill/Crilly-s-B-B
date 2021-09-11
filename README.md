@@ -95,10 +95,10 @@ Brickred: #CE4257
 
 White was also used in different parts of the site to achieve the best possible contrast for user experience.
 
-*Typography:
+* Typography:
 'Kaisei HarunoUmi', taken from Google Fonts, is the main font used throughout the website with 'Sans Serif' as the fallback font. It is clear, neat and appropriate for the homely feel that the site is aiming for. 
 
-*Imagery:
+* Imagery:
 
 All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
@@ -112,9 +112,74 @@ The image on the 'Contact' page aims to evoke feelings of cosiness and calm and 
 
 ## Features
 
-Existing
+### Existing Features:
 
-To be Implemented in Future:
+* Navigation
+
+  * Horizontally aligned navigation bar with 4 navigation links exists on all pages.
+
+  * Navigation bar is always at the top of the page so users know what to expect and can navigate easily.
+
+  * The site logo is clickable and allows the user to return to the homepage from anywhere on the site.
+
+  * A border appears at the bottom of the menu links when they are hovered over.
+
+  * On mobile, the navigation menu links are displayed underneath and to the right of the logo, instead of in-line.
+
+Desktop:
+
+![Image of desktop menu](assets/images/desktop-nav.png)
+
+Mobile:
+
+![Image of mobile menu](assets/images/mobile-nav.png)
+
+* Landing Page with a hero image
+
+  * Large hero image serves to present the B&B in an attractive light and grab the users attention.
+  * Call to action booking button is centrally placed on the hero image. The button background and text colours change on hover inviting the visitor to navigate to the contact/booking section of the site.
+
+Desktop:
+
+![Image of desktop hero image](assets/images/desktop-hero.png)
+
+Mobile: 
+
+![Image of mobile hero image](assets/images/mobile-hero.png)
+
+* 'About Us' section
+  * This seciton provides a brief background of the B&B and a welcoming message for prospective guests.
+  * Icons were added to the section heading to make the paragraph stand out and make it more appealing visually.
+
+Desktop:
+
+![Image of desktop 'about us'](assets/images/about-us-desktop.png)
+
+Mobile:
+
+![Image of mobile 'about us'](assets/images/about-us-mobile.png)
+
+* Footer
+
+  * Footer is conventionally placed at the bottom of the site and consistently displayed on all pages.
+
+  * It includes centered social media links which open in new tabs. 
+
+Desktop: 
+
+![Image of desktop footer](assets/images/desktop-footer.png)
+
+
+Mobile:
+
+![Image of mobile footer](assets/images/mobile-footer.png)
+
+* Rooms 
+
+* See and do 
+
+### Features To be Implemented in Future:
+
 
 -
 
