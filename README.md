@@ -165,10 +165,11 @@ Mobile:
 
   * It includes centered social media links which open in new tabs. 
 
+  * The aim is for a clean and minimlaist look for the footer.
+
 Desktop: 
 
 ![Image of desktop footer](assets/images/desktop-footer.png)
-
 
 Mobile:
 
@@ -176,10 +177,67 @@ Mobile:
 
 * Rooms 
 
+  * The Rooms page displays two large images of available rooms at the B&B.
+  * The overlay text on each image states the price per night and an additional booking button to take customers to the contact/booking page straight away.
+
+Desktop:
+
+![Image of Desktop Rooms](assets/images/rooms-desktop.png)
+
+Mobile:
+
+![Image of Mobile Rooms](assets/images/rooms-mobile.png)
+
 * See and do 
+
+  * The 'See and do' page contains suggestions for recreational activities within driving distance of the B&B.
+  * There is a short introductory text on each activity with an accompanying image.
+  * Each activity has a link to the relevant social media or website page through which guests can find specific locations and directions. Each of theese links opens in a new tab.
+  * On smaller screens, the images adjust so that they become smaller to allow the full text to be seen, without stretching or distorting the images.
+
+Desktop:
+
+![Image of Desktop See and do](assets/images/seedo-desktop.png)
+
+Mobile:
+
+![Image of Mobile See and do](assets/images/seedo-mobile.png)
+
+* Contact
+
+  * The contact page contains a large image of a fireplace to evoke feelings of cosiness and warmth.
+  * There is a contact form overlaying the main image where guests can submit queries or directly make a booking request. The button on this form changes colour when hovered over.
+  * The name and email fields are required and a validation error message pops up if the user tries to submit the form with information missing from these fields.
+  * The email addresss needs to be in a valid format - a validation error message pops up if the format is incorrect.
+
+Desktop:
+
+![Image of Desktop Contact](assets/images/contact-desktop.png)
+
+Mobile:
+
+![Image of Mobile Contact](assets/images/contact-mobile.png)
+
+* Directions section
+
+  * This section is located at the bottom of the Contact page adnd comprises of an embedded Google Map and Directions text.
+  * On smaller screens, the map gets stacked on top of the text instead of side by side.
+
+Desktop:
+
+![Image of Desktop Directions](assets/images/directions-desktop.png)
+
+Mobile:
+
+![Image of Mobile Directions](assets/images/directions-mobile.png)
 
 ### Features To be Implemented in Future:
 
+Rooms - additional pictures with javascript scroll
+
+contact us form may evolve into arrival and departusre dates
+
+Add more imagery in a gallery to give an insight into the catering servicweces at the B&B and a diverse customer base to reflect the companies commitment to diversity and inclusion . 
 
 -
 
