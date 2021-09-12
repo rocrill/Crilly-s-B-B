@@ -129,39 +129,39 @@ Mock-ups were made using Balsamiq to help plan and visualise the site design. Th
 
   * On mobile, the navigation menu links are displayed underneath and to the right of the logo, instead of in-line.
 
-Desktop:
+  Desktop:
 
-![Image of desktop menu](assets/images/desktop-nav.png)
+  ![Image of desktop menu](assets/images/desktop-nav.png)
 
-Mobile:
+  Mobile:
 
-![Image of mobile menu](assets/images/mobile-nav.png)
+  ![Image of mobile menu](assets/images/mobile-nav.png)
 
 * Landing Page with a hero image
 
   * Large hero image serves to present the B&B in an attractive light and grab the users attention.
   * Call to action booking button is centrally placed on the hero image. The button background and text colours change on hover inviting the visitor to navigate to the contact/booking section of the site.
 
-Desktop:
+  Desktop:
 
-![Image of desktop hero image](assets/images/desktop-hero.png)
+  ![Image of desktop hero image](assets/images/desktop-hero.png)
 
-Mobile: 
+  Mobile: 
 
-![Image of mobile hero image](assets/images/mobile-hero.png)
+  ![Image of mobile hero image](assets/images/mobile-hero.png)
 
 * 'About Us' section
 
   * This seciton provides a brief background of the B&B and a welcoming message for prospective guests.
   * Icons were added to the section heading to make the paragraph stand out and make it more appealing visually.
 
-Desktop:
+  Desktop:
 
-![Image of desktop 'about us'](assets/images/about-us-desktop.png)
+  ![Image of desktop 'about us'](assets/images/about-us-desktop.png)
 
-Mobile:
+  Mobile:
 
-![Image of mobile 'about us'](assets/images/about-us-mobile.png)
+  ![Image of mobile 'about us'](assets/images/about-us-mobile.png)
 
 * Footer
 
@@ -171,26 +171,26 @@ Mobile:
 
   * The aim is for a clean and minimalist look for the footer.
 
-Desktop: 
+  Desktop: 
 
-![Image of desktop footer](assets/images/desktop-footer.png)
+  ![Image of desktop footer](assets/images/desktop-footer.png)
 
-Mobile:
+  Mobile:
 
-![Image of mobile footer](assets/images/mobile-footer.png)
+  ![Image of mobile footer](assets/images/mobile-footer.png)
 
 * Rooms 
 
   * The Rooms page displays two large images of available rooms at the B&B.
   * The overlay text on each image states the price per night and an additional booking button to take customers to the contact/booking page straight away.
 
-Desktop:
+  Desktop:
 
-![Image of Desktop Rooms](assets/images/rooms-desktop.png)
+  ![Image of Desktop Rooms](assets/images/rooms-desktop.png)
 
-Mobile:
+  Mobile:
 
-![Image of Mobile Rooms](assets/images/rooms-mobile.png)
+  ![Image of Mobile Rooms](assets/images/rooms-mobile.png)
 
 * See and do 
 
@@ -199,13 +199,13 @@ Mobile:
   * Each activity has a link to the relevant social media or website page through which guests can find specific locations and directions. Each of these links opens in a new tab.
   * On smaller screens, the images adjust so that they become smaller to allow the full text to be seen, without stretching or distorting the images.
 
-Desktop:
+  Desktop:
 
-![Image of Desktop See and do](assets/images/seedo-desktop.png)
+  ![Image of Desktop See and do](assets/images/seedo-desktop.png)
 
-Mobile:
+  Mobile:
 
-![Image of Mobile See and do](assets/images/seedo-mobile.png)
+  ![Image of Mobile See and do](assets/images/seedo-mobile.png)
 
 * Contact
 
@@ -214,26 +214,26 @@ Mobile:
   * The name and email fields are required and a validation error message pops up if the user tries to submit the form with information missing from these fields.
   * The email addresss needs to be in a valid format - a validation error message pops up if the format is incorrect.
 
-Desktop:
+  Desktop:
 
-![Image of Desktop Contact](assets/images/contact-desktop.png)
+  ![Image of Desktop Contact](assets/images/contact-desktop.png)
 
-Mobile:
+  Mobile:
 
-![Image of Mobile Contact](assets/images/contact-mobile.png)
+  ![Image of Mobile Contact](assets/images/contact-mobile.png)
 
 * Directions section
 
   * This section is located at the bottom of the Contact page and contains an embedded Google Map and Directions text.
   * On smaller screens, the map gets stacked on top of the text instead of side by side.
 
-Desktop:
+  Desktop:
 
-![Image of Desktop Directions](assets/images/directions-desktop.png)
+  ![Image of Desktop Directions](assets/images/directions-desktop.png)
 
-Mobile:
+  Mobile:
 
-![Image of Mobile Directions](assets/images/directions-mobile.png)
+  ![Image of Mobile Directions](assets/images/directions-mobile.png)
 
 ### Features To be Implemented in Future:
 
