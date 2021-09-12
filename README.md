@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![Image of Device responsiveness](assets/images/devices.png)
+
 Crilly's B&B is a website for a small B&B business based in the small town of Maghera, Co. Derry. The website is aimed towards any holidaymakers who are looking for a quiet holiday in relaxing surroundings.
 
 Users of this website will be able to gain a good insight into what it is like to stay at the B&B, the available facilites and what they can expect from the local area. They will have easy access to prices and contact page where they can send an enquiry to book their desired room. 
@@ -285,22 +287,21 @@ You can create a fork (copy) of the repository. This allows you to experiment wi
 
 To fork the repository:
 
-1. Log in to your GitHub account
-2. On GitHub, navigate to the repository you want to fork
-3. In the top right corner of the page, underneath your profile avatar, click Fork
-4. You should now have a copy of the original repository in your GitHub account
+1. Log in to your GitHub account.
+2. On GitHub, navigate to the repository you want to fork.
+3. In the top right corner of the page, underneath your profile avatar, click Fork.
+4. You should now have a copy of the original repository in your GitHub account.
 
 # Making a local clone:
 
 You can clone your repository to create a local copy on your computer. Any changes made to the local copy will not affect the original project. To clone the Crilly-s-B-B project, follow the steps below:
 
-1. Log in to your GitHub account and locate the Crilly's B&B repository
-2. In the repository, click on Code button located above all the project files
-3. Under HTTPS, copy the link generated (INSERT LINK HERE)
+1. Log in to your GitHub account and locate the Crilly-s-B-B repository.
+2. In the repository, click on Code button located above all the project files.
+3. Under HTTPS, copy the link generated - https://github.com/rocrill/Crilly-s-B-B.git
 4. Open the terminal you are using, e.g. Gitpod
 5. Change the current working directory to the location where you want the cloned directory created
-6. Type git clone and then paste the URL you copied earlier:
-7. git clone (INSERT LINK HERE)
+6. Type git clone and then paste the URL you copied earlier: git clone https://github.com/rocrill/Crilly-s-B-B.git
 8. Press Enter to create your local clone.
 
 ## Testing
@@ -410,10 +411,41 @@ Directions to the site can be found predictably on the 'Contact' page, including
 
   The social media links are defined by their trademark icons, and clearly displayed on all pages of the site so that users can click through to the site on a new tab, get a better feel for the company's branding and follow the page if they wish.
 
+# Validator Testing
+
+* HTML Validator Errors & Warnings
+
+  * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+
+    Fixed: Changed a `section` element to a `div` element as the heading was not required.
+
+  * Error: The element `button` must not appear as a descendant of the `a` element.
+
+    Fixed: Replaced `button` html code for an `<a>` element with a form.
+
+  * Error: The value of the `for` attribute of the `label` element must be the ID of a non-hidden form control.
+
+    Fixed both: Changed 'message' `class` to an `id` and matched the attribute value between the `label` and `textarea` elements.
+
+* CSS Validator Errors & Warnings
+
+  * Error: .attractions-container: `left` is not a `align-items` value.
+
+  * Fix: Replaced code with with `align-items: stretch;`
+
+I re-ran the deployed site through both the HTML and CSS validators and no warnings or error were found:
+
+![Image for html validator result](assets/images/final-html-pass.png)
+![Image for css validator result](assets/images/final-css-pass.png)
+
+
+* Accessibility
+
 # Further Testing
 
-The Website was tested on multiple browsers - Google Chrome, Safari, Microsoft Edge and Firefox browsers.
-The website was viewed on all devices available to me - Desktop, Laptop, iPhone6 and Oppo Find X2 Lite.
+* I have confirmed that the contact form works when submitted.
+* The Website was tested on multiple browsers - Google Chrome, Safari, Microsoft Edge and Firefox browsers.
+* The website was viewed on all devices available to me - Desktop, Laptop, iPhone6, Huawei Y6 and Oppo Find X2 Lite.
 
 ## Credits
 
