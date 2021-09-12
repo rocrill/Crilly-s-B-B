@@ -259,13 +259,12 @@ Mobile:
 * [Am I Responsoive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices.
 * [W3C HTML Validator](https://validator.w3.org/#validate_by_input) - to validate HTML code.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code.
----Color Contrast Accessibility Validator - to test the contrast and readability of colours used ---
 * [Github](https://github.com/) - for hosting the project code and version control.
 * [Gitpod](https://gitpod.io/account)- to write the code and push it to GitHub.
 * [Github Pages](https://pages.github.com/) - to deploy the site.
----Online-Spellcheck - to spellcheck the content of the site and README---
 * [Unsplash](https://unsplash.com/) - for images.
 * [Pexels](https://www.pexels.com/) - for images.
+* [Gimp2.10](https://www.gimp.org/) - to resize images.
 
 ## Deployment
 
