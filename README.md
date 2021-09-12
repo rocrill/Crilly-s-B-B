@@ -266,6 +266,8 @@ Mobile:
 
 ## Deployment
 
+# Deploying
+
 * The site was developed in GitPod and deployed to GitHub pages. The steps to deploy are as follows:
   * Navigate to the Github repository. For this project, this is rocrill/Crilly-s-B-B. 
   * Navigate to the Settings tab, then to Pages.
@@ -273,6 +275,30 @@ Mobile:
   * Once the master branch has been selected, you will see the message: 'Your site is published' and a link to the deployed site will be provided.
 
 The live link can be found here - xxxxx
+
+# Forking to GitHub Repository
+
+You can create a fork (copy) of the repository. This allows you to experiment with the code without affecting the original project.
+
+To fork the repository:
+
+1. Log in to your GitHub account
+2. On GitHub, navigate to the repository you want to fork
+3. In the top right corner of the page, underneath your profile avatar, click Fork
+4. You should now have a copy of the original repository in your GitHub account
+
+# Making a local clone:
+
+You can clone your repository to create a local copy on your computer. Any changes made to the local copy will not affect the original project. To clone the Writing Room project, follow the steps below:
+
+1. Log in to your GitHub account and locate the Writing Room repository
+2. In the repository, click on Code button located above all the project files
+3. Under HTTPS, copy the link generated (INSERT LINK HERE)
+4. Open the terminal you are using, e.g. Gitpod
+5. Change the current working directory to the location where you want the cloned directory created
+6. Type git clone and then paste the URL you copied earlier:
+7. git clone (INSERT LINK HERE)
+8. Press Enter to create your local clone.
 
 ## Testing
 
