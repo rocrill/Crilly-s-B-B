@@ -443,10 +443,10 @@ I re-ran the deployed site through both the HTML and CSS validators and no warni
 
 The Lighthouse report from Google Chrome DevTools showed very good results for Performance, Accessibility, SEO and best practices of the site. 
 
-![Image for Home lighthouse result](assets/images/home-lighthouse.png): Home page
-![Image for Rooms lighthouse result](assets/images/rooms-lighthouse.png): 
-![Image for See and do lighthouse result](assets/images/seedo-lighthouse.png)
-![Image for Contact lighthouse result](assets/images/contact-lighthouse.png)
+Home page: ![Image for Home lighthouse result](assets/images/home-lighthouse.png)
+Rooms page: ![Image for Rooms lighthouse result](assets/images/rooms-lighthouse.png)
+See and do page: ![Image for See and do lighthouse result](assets/images/seedo-lighthouse.png)
+Contact page:![Image for Contact lighthouse result](assets/images/contact-lighthouse.png)
 
 
 # Further Testing
@@ -456,9 +456,6 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
 * The website was viewed on all devices available to me - Desktop, Laptop, iPhone6, Huawei Y6 and Oppo Find X2 Lite.
 
 ## Credits
-
-Photo credits
-
 
 ### Code
 
@@ -470,6 +467,23 @@ xxx was taken from this xxx post.
 
 Icons taken from Font Awesome.
 
+### Images
+
+Images were sourced from Unsplash and Pexels.
+
+Hero Image by Mike Erskine on [Unsplash](https://unsplash.com/photos/NqeB4q6KOFg)
+
+Double room image by Max Vakhtbovych on [Pexels](https://www.pexels.com/photo/classy-bedroom-with-soft-bed-and-white-furniture-7166560/)
+
+King room image by NeONBRAND on [Unsplash](https://unsplash.com/photos/ZqqwJA71Ke4)
+
+Sunflower firled image by Bonnie Kittle on [Unsplash](https://unsplash.com/photos/vxTpVxYCZjA)
+
+Mountain image by K. Mitch Hodge on [Unsplash](https://unsplash.com/photos/pyKlWqt6PY0)
+
+Portstewart Strand image by Catherin Auld on [Unsplash](https://unsplash.com/photos/7H7COlMWZwI)
+
+Contact page image by Timothy Eberly on [Unsplash](https://unsplash.com/photos/oIFAIo6f2qA)
 
 ## Acknowledgements
 
