@@ -208,6 +208,7 @@ footer {
     position: absolute;
     top: 73%;
     left: 60%;
+    -webkit-appearance: none;
 }
 
 .book-now-button:hover {
@@ -243,6 +244,7 @@ footer {
     padding: 15px 35px;
     text-align: center;
     float: right;
+    -webkit-appearance: none;
 }
 
 .send-button:hover {
