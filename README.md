@@ -266,6 +266,14 @@ Mobile:
 
 ## Deployment
 
+* The site was developed in GitPod and deployed to GitHub pages. The steps to deploy are as follows:
+  * Navigate to the Github repository. For this project, this is rocrill/Crilly-s-B-B. 
+  * Navigate to the Settings tab, then to Pages.
+  * From the Source secton drop-down menu, select the Master Branch ( or Branch: Master and Root folder). Save.
+  * Once the master branch has been selected, you will see the message: 'Your site is published' and a link to the deployed site will be provided.
+
+The live link can be found here - xxxxx
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
