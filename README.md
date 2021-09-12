@@ -233,15 +233,36 @@ Mobile:
 
 ### Features To be Implemented in Future:
 
-Rooms - additional pictures with javascript scroll
-
-contact us form may evolve into arrival and departusre dates
-
-Add more imagery in a gallery to give an insight into the catering servicweces at the B&B and a diverse customer base to reflect the companies commitment to diversity and inclusion . 
-
+* Rooms page: Add more pictures of each room to give customers a better idea, possibly using a Javascript scroll function through the images.
+* Contact page: Add a traditional booking form with arrival and departure dates to make the booking experience more straight forward for guests.
+* Home page: Add more imagery in a gallery to give an insight into the catering services at the B&B. This gallery would also portray a diverse customer base to reflect the company's commitment to diversity and inclusion. 
 -
 
 ## Technologies Used
+
+###Languages:
+* > - [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+* > - [CSS 3](https://en.wikipedia.org/wiki/CSS)
+
+###Frameworks, libraries and programs used:
+
+* > - [Balsamiq](https://balsamiq.com/) - to create wireframes for the site as part of the project preparation.
+* > - [Google Fonts](https://fonts.google.com/) - to import the 'Kaisei HarunoUmi' and 'Sans Serif' fonts into the HTML file, which were then used throughout the site.
+* > - [Font Awesome](https://fontawesome.com/) - for icons which were added to some headings throughout the site for aesthetics.
+* > - [Coolors](https://coolors.co/) - for an appropriate and attractive colour palette.
+* > - [Tinypng](https://tinypng.com/)- to resize images.
+* > - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - to inspect and debug the code through all stages of the development.
+* > - [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to check the site for performance, accessibility and best practices.
+* > - [Am I Responsoive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices.
+* > - [W3C HTML Validator](https://validator.w3.org/#validate_by_input) - to validate HTML code.
+* > - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code.
+---Color Contrast Accessibility Validator - to test the contrast and readability of colours used ---
+* > - [Github](https://github.com/) - for hosting the project code and version control.
+* > - [Gitpod](https://gitpod.io/account)- to write the code and push it to GitHub.
+* > - [Github Pages](https://pages.github.com/) - to deploy the site.
+---Online-Spellcheck - to spellcheck the content of the site and README---
+* > - [Unsplash](https://unsplash.com/) - for images.
+* > - [Pexels](https://www.pexels.com/) - for images.
 
 ## Deployment
 
