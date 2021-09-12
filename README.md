@@ -51,7 +51,7 @@ Users of this website will be able to gain a good insight into what it is like t
 * Site Owner Goals
 
   * As a site owner, I want to create an attractive and well-designed site that elicits a positive emotional resonse in users so that they remain on and navigate througout the site to achieve their goals.
-  * As a site owner, I want to have a clear and well-structured contact from so I can receive queries and questions from users which will potentially lead to bookings.
+  * As a site owner, I want to have a clear and well-structured contact from so I can receive queries and questions from users which will potentially lead to bookings. I do not want this contact form to be too many clicks away from where the user is on the site at any given moment.
   *  As a site owner, I want to have clear social media links displayed on the site which may lead to an increased following on channels to help with my branding.
 
 ### Structure:
@@ -240,29 +240,30 @@ Mobile:
 
 ## Technologies Used
 
-###Languages:
-* > - [HTML 5](https://en.wikipedia.org/wiki/HTML5)
-* > - [CSS 3](https://en.wikipedia.org/wiki/CSS)
+### Languages:
 
-###Frameworks, libraries and programs used:
+*  [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+*  [CSS 3](https://en.wikipedia.org/wiki/CSS)
 
-* > - [Balsamiq](https://balsamiq.com/) - to create wireframes for the site as part of the project preparation.
-* > - [Google Fonts](https://fonts.google.com/) - to import the 'Kaisei HarunoUmi' and 'Sans Serif' fonts into the HTML file, which were then used throughout the site.
-* > - [Font Awesome](https://fontawesome.com/) - for icons which were added to some headings throughout the site for aesthetics.
-* > - [Coolors](https://coolors.co/) - for an appropriate and attractive colour palette.
-* > - [Tinypng](https://tinypng.com/)- to resize images.
-* > - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - to inspect and debug the code through all stages of the development.
-* > - [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to check the site for performance, accessibility and best practices.
-* > - [Am I Responsoive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices.
-* > - [W3C HTML Validator](https://validator.w3.org/#validate_by_input) - to validate HTML code.
-* > - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code.
+### Frameworks, libraries and programs used:
+
+* [Balsamiq](https://balsamiq.com/) - to create wireframes for the site as part of the project preparation.
+* [Google Fonts](https://fonts.google.com/) - to import the 'Kaisei HarunoUmi' and 'Sans Serif' fonts into the HTML file, which were then used throughout the site.
+* [Font Awesome](https://fontawesome.com/) - for icons which were added to some headings throughout the site for aesthetics.
+* [Coolors](https://coolors.co/) - for an appropriate and attractive colour palette.
+* [Tinypng](https://tinypng.com/)- to resize images.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - to inspect and debug the code through all stages of the development.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to check the site for performance, accessibility and best practices.
+* [Am I Responsoive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices.
+* [W3C HTML Validator](https://validator.w3.org/#validate_by_input) - to validate HTML code.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code.
 ---Color Contrast Accessibility Validator - to test the contrast and readability of colours used ---
-* > - [Github](https://github.com/) - for hosting the project code and version control.
-* > - [Gitpod](https://gitpod.io/account)- to write the code and push it to GitHub.
-* > - [Github Pages](https://pages.github.com/) - to deploy the site.
+* [Github](https://github.com/) - for hosting the project code and version control.
+* [Gitpod](https://gitpod.io/account)- to write the code and push it to GitHub.
+* [Github Pages](https://pages.github.com/) - to deploy the site.
 ---Online-Spellcheck - to spellcheck the content of the site and README---
-* > - [Unsplash](https://unsplash.com/) - for images.
-* > - [Pexels](https://www.pexels.com/) - for images.
+* [Unsplash](https://unsplash.com/) - for images.
+* [Pexels](https://www.pexels.com/) - for images.
 
 ## Deployment
 
@@ -302,23 +303,120 @@ You can clone your repository to create a local copy on your computer. Any chang
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+I tested the site regularly during the development process, by previewing it in the live server window and inspecting with Google Chrome DevTools at various stages.
+
+When I was editing for responsiveness I tested the site on different devices available to me.
+
+At the final stages of the project the W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
 W3C Markup Validator - Results
 W3C CSS Validator - Results
 
-#Testing User Stories
+# Testing User Stories from the UX Section
 
+* First time visitor goals:
 
+  * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the service on offer at the B&B.
 
-#Further Testing
+  Test result: Pass
 
-The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6 and Oppo Find X2 Lite.
+  On the landing page of the site, there is a clear call to action to book accommodation at the B&B. There is also a nav menu with clear purpose of providing more information about the B&B and things to do in the area.
 
+![Image for test 1](assets/images/test1.png)
 
+  * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+Test result: Pass
+
+The navigation menu clearly outlines the purppose of each page, was designed in the order of a typical guest journey throughout a hospitality website, and is consistent throughout the site to make navigation seamless.
+
+![Image for test 2](assets/images/test2.png)
+
+  * As a First Time Visitor, I want to easily find basic information about the B&B like it's location and how to reach it.
+
+Test result: Pass
+
+Directions to the site can be found predictably on the 'Contact' page, including a Google Map, driving directions and a link to the site of the main Northern Ireland public transort provider, which opens in a new tab.
+
+![Image for test 3](assets/images/test3.png)
+
+* Returning Visitor Goals
+
+  * As a Returning Visitor, I want to easily access the section of the site where I can contact the organisation with queries.
+
+  Test result: Pass
+
+  The Contact page is clearly marked in nav menu, where there is an straightforward contact form which highlights when required info is missing to ensure customer queries are not lost.
+
+  ![Image for test 4](assets/images/test4.png)
+
+  * As a Returning Visitor, I want to easily access the section of the site where I can review prices as I may now be considering booking and putting a budget together for this.
+
+  Test result: Pass
+
+  Prices are stated in clear capitalized text on each room image, which can be found intuitively on the Rooms page.
+
+  ![Image for test 5](assets/images/test5.png)
+
+  * As a Returning Visitor, I also want to locate the business's social media links to see their followings on social media to determine how trusted and known they are, and potentially look for testimonials on these sites to understand how previous customers found the accommodation.
+
+  Test result: Pass
+
+  The business's social media links are clearly displayed in the footer on all pages of the site. Each social media channel icon opens in a separate tab.
+
+  ![Image for test 6](assets/images/test6.png)
+
+* Frequent User Goals
+
+  * As a Frequent User, I want to be able to access the site easily from any device, even if I am on the go.
+
+  Test result: Pass.
+
+  The site has been made responsive through multiple media queries, so the site layout and user experience is not adversely affected when accessed on a smaller screensize.
+
+  ![Image for test 7](assets/images/test7.png)
+
+  * As a Frequent User, I want to follow the B&B on their social pages so I am aware of any updates/offers.
+
+  Test result: Pass.
+
+  The social media links are defined by their trademark icons, and clearly displayed on all pages of the site so that users can click through to the site on a new tab and follow if they wish.
+
+* Site Owner Goals
+
+  * As a site owner, I want to create an attractive and well-designed site that elicits a positive emotional resonse in users so that they remain on and navigate througout the site to achieve their goals.
+
+  Test result: Pass.
+
+  The website was designed with a complementary color palette and an intuitive layout, with minimal text and imagery to avoid information or sensory overload. Navigation throughout the site is simple and straightforward, and the imagery used was chosen to convey a sense of calm and warmth. All of these features have the aim of a positive emotional response from users.
+
+  * As a site owner, I want to have a clear and well-structured contact from so I can receive queries and questions from users which will potentially lead to bookings. I do not want this contact form to be too many clicks away from where the user is on the site at any given moment.
+
+  Test result: Pass
+
+  The contact form is simple and easy to use. It highlights when rewuired information is missing and leads to a confirmation message when a message is sent. 
+  
+  It can be accessed by navigating to the Contact form on the nav menu, by clicking the 'Book your stay' button on the Home page, or by clicking each 'Book now' button underneath the separate room prices on the Rooms page.
+
+    ![Image for test8](assets/images/test8a.png)
+    ![Image for test8](assets/images/test8d.png)
+    ![Image for test8](assets/images/test8c.png)
+
+  * As a site owner, I want to have clear social media links displayed on the site which may lead to an increased following on channels to help with my branding.
+
+  Test result: Pass
+
+  The social media links are defined by their trademark icons, and clearly displayed on all pages of the site so that users can click through to the site on a new tab, get a better feel for the company's branding and follow the page if they wish.
+
+# Further Testing
+
+The Website was tested on multiple browsers - Google Chrome, Safari, Microsoft Edge and Firefox browsers.
+The website was viewed on all devices available to me - Desktop, Laptop, iPhone6 and Oppo Find X2 Lite.
 
 ## Credits
+
+Photo credits
+
 
 ### Code
 
@@ -333,5 +431,6 @@ Icons taken from Font Awesome.
 
 ## Acknowledgements
 
+Thanks to my mentor, Gerard McBride, for his help and guidance.
 
 ------
