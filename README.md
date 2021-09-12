@@ -275,7 +275,9 @@ Mobile:
   * From the Source secton drop-down menu, select the Master Branch ( or Branch: Master and Root folder). Save.
   * Once the master branch has been selected, you will see the message: 'Your site is published' and a link to the deployed site will be provided.
 
-The live link can be found here - xxxxx
+The live link can be found here - https://rocrill.github.io/Crilly-s-B-B/
+
+*Note: I wanted to neaten the end of the url from 'Crilly-s-B-B' when deploying the site, however I was too nervous that other parts of the project would be affected. I would neaten this in future, e.g. to 'crillys-bandb'. 
 
 # Forking to GitHub Repository
 
@@ -290,9 +292,9 @@ To fork the repository:
 
 # Making a local clone:
 
-You can clone your repository to create a local copy on your computer. Any changes made to the local copy will not affect the original project. To clone the Writing Room project, follow the steps below:
+You can clone your repository to create a local copy on your computer. Any changes made to the local copy will not affect the original project. To clone the Crilly-s-B-B project, follow the steps below:
 
-1. Log in to your GitHub account and locate the Writing Room repository
+1. Log in to your GitHub account and locate the Crilly's B&B repository
 2. In the repository, click on Code button located above all the project files
 3. Under HTTPS, copy the link generated (INSERT LINK HERE)
 4. Open the terminal you are using, e.g. Gitpod
