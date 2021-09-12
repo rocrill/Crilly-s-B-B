@@ -376,6 +376,17 @@ footer {
         font-size: 90%;
     }
 
+    footer {
+        height: auto;
+    }
+    
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 10%;
+        color: #4F000B;
+    }
+
     #price-cover-text-double {
         font-size: 130%;
         font-family: "Kaisei HarunoUmi", sans-serif;
