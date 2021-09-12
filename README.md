@@ -459,13 +459,29 @@ Contact page:![Image for Contact lighthouse result](assets/images/contact-lighth
 
 ### Code
 
-The Code Institute LMS content as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
+The Code Institute LMS content, including the Love Running project, as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
 
-Reference materials from xxx were used to implement xxx.
+This [W3Schools](https://www.w3schools.com/css/css3_flexbox_container.asp) article was used when writing the code to stack containers for the mobile view of the Contact page.
 
-xxx was taken from this xxx post.
+Code used to centre Google map within half of a container on Contact page was taken from this [w3 doc](https://www.w3.org/Style/Examples/007/center.en.html#block)
+
+This [Stack Overflow](https://stackoverflow.com/questions/26744659/center-an-button-with-respect-to-an-image-css) article was used to centre the 'Book your stay' button on the Home page hero image.
+
+This [W3Schools](https://www.w3schools.com/howto/howto_css_center-vertical.asp) article was used for further repositioning of buttons on the site.
+
+This [W3Schools](https://www.w3schools.com/html/html_entities.asp) article was used for the `&nbsp;` html to manipulate space around text throughout the site.
+
+This [W3Schools](https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html) article was used when writing the code to display images beside the text on the 'See and do' page.
 
 Icons taken from Font Awesome.
+
+### Content
+
+Some information on Portstewart beach taken from The [National Trust](https://www.nationaltrust.org.uk/portstewart-strand) site.
+
+Some content for the Caintogher walk description taken from [Walk NI](https://walkni.com/walks/carntogher-way-sli-an-chairn/).
+
+Some content for Portglenone Sunflower field taken from [Passports and Adventures](https://passportsandadventures.com/sunflower-fields-in-ireland-with-kids/).
 
 ### Images
 
