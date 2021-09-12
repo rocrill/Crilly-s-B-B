@@ -451,9 +451,30 @@ Contact page:![Image for Contact lighthouse result](assets/images/contact-lighth
 
 # Further Testing
 
-* I have confirmed that the contact form works when submitted.
-* The Website was tested on multiple browsers - Google Chrome, Safari, Microsoft Edge and Firefox browsers.
-* The website was viewed on all devices available to me - Desktop, Laptop, iPhone6, Huawei Y6 and Oppo Find X2 Lite.
+* Devices and browsers :
+
+  * The Website was tested on multiple browsers - Google Chrome, Safari, Microsoft Edge and Firefox browsers.
+  * The website was viewed on all devices available to me - Desktop, Laptop, iPhone6, Huawei Y6 and Oppo Find X2 Lite.
+
+* Site Features:
+
+  * The nav bar remains and the top of the page and the menu items adapt to remain within the nav bar on all devices.
+  * The font is legible on all device sizes.
+  * Images are resized where needed and never stretched or distorted on smaller devices.
+  * All buttons and links direct to the correct parts of the site.
+
+# Bugs
+
+* Fixed:
+  * At a later stage of the project I realised that on an actual iPhone 6, as opposed to the iPhone6 preview in DevTools, certain sections of the site were distorted, e.g. the nav menu items fell outside of the header. This was solved with `&nbsp` html. 
+  * The 'Book now' button of the Rooms page was also displaced on the actual iPhone 6. This was fixed using CSS for this button within the mobile media query.
+  * The button stying across the whole site on the iPhone6 was missing, this was resolved by adding `-webkit-appearance: none;` to the CSS for the styling of each button.
+  
+* Known:
+  * On a medium size device between desktop and mobile, on the Contact page, the Google Map does not centre perfectly over the Directions paragraph as it does in mobile. I spent a lot of time trying to fix this, but in the end did not have time to fix it without compromising the site on the desktop on mobile verions - on which I am happy with the map positioning.
+
+![Image for map bug](assets/images/map-placement.png)
+
 
 ## Credits
 
@@ -472,6 +493,8 @@ This [W3Schools](https://www.w3schools.com/howto/howto_css_center-vertical.asp) 
 This [W3Schools](https://www.w3schools.com/html/html_entities.asp) article was used for the `&nbsp;` html to manipulate space around text throughout the site.
 
 This [W3Schools](https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html) article was used when writing the code to display images beside the text on the 'See and do' page.
+
+This [Stack Overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone) article resolved a formatting issue on all buttons across the site whereby the correct styling was not applied.
 
 Icons taken from Font Awesome.
 
@@ -503,6 +526,9 @@ Contact page image by Timothy Eberly on [Unsplash](https://unsplash.com/photos/o
 
 ## Acknowledgements
 
-Thanks to my mentor, Gerard McBride, for his help and guidance.
+Thank you to:
+
+* My mentor, Gerard McBride, for his help and guidance.
+* The tutors at the Code Institute for their help and support.
 
 ------
