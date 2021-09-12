@@ -439,7 +439,15 @@ I re-ran the deployed site through both the HTML and CSS validators and no warni
 ![Image for css validator result](assets/images/final-css-pass.png)
 
 
-* Accessibility
+# Lighthouse Testing
+
+The Lighthouse report from Google Chrome DevTools showed very good results for Performance, Accessibility, SEO and best practices of the site. 
+
+![Image for Home lighthouse result](assets/images/home-lighthouse.png): Home page
+![Image for Rooms lighthouse result](assets/images/rooms-lighthouse.png): 
+![Image for See and do lighthouse result](assets/images/seedo-lighthouse.png)
+![Image for Contact lighthouse result](assets/images/contact-lighthouse.png)
+
 
 # Further Testing
 
